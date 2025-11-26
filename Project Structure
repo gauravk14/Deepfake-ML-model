@@ -1,0 +1,10 @@
+Deepfake-Detection/
+│── train.py               # Training script
+│── infer.py               # Single image prediction
+│── deepfake_model.keras   # Saved model (optional in repo)
+│── requirements.txt
+│── README.md
+│── .gitignore
+└── data/
+    ├── Real/              # Real images
+    └── Fake/              # Fake images
